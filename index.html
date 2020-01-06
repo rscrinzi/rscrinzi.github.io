@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html>
    <head>
-       <title>Hello World</title>
+       <title>Rock Paper Scissors</title> 
+       <link rel="stylesheet" href="css/style.css">
+       <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
    </head>
 
    <body>
-       <h1>Hello World!</h1>
+       <header>Rock Paper Scissors</header>
+
+       <main>
+           <div id="score-board">
+                <div id="score-label">0:0</div>
+                <div id="user-label" class="label">User</div>
+                <div id="computer-label" class="label">Comp</div>
+           </div>
+
+           <div class="result">
+               <p>Result</p>
+           </div>
+
+           <div id="choices">
+               <div id="rock" class="choice"><img src="img/rock.png" width="100px" height="100px"></div>
+               <div id="paper" class="choice"><img src="img/paper.png" width="100px" height="100px"></div>
+               <div id="scissors" class="choice"><img src="img/scissors.png" width="100px" height="100px"></div>
+           </div>
+
+           <div class="result">Please make a choice.</div>
+       </main>
+       
    </body>
 
-
+   <script src="js/app.js"></script>
 </html>
